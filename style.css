@@ -1,0 +1,66 @@
+body {
+  marin: auto;
+  text-align: center;
+}
+
+#container {
+    background-color: black;
+    height: 440px;
+    width: 440px;
+    padding: 30px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+.unit {
+    background-color: grey;
+    height: 25px;
+    width: 25px;
+    margin: 1px;
+    outline: solid grey;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+
+}
+
+.hovered {
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  margin: 1px;
+  outline: solid white;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+
+}
+
+div.title {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "arial";
+}
+
+
+.reset {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin: 0 auto;
+}
